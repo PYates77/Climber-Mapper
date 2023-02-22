@@ -55,7 +55,7 @@ routes['lnglat']=metadata.parent_lnglat
 
 # Yosemete and V-scale grades are both stored in YDS field, depending on if boulder or not
 routes['us_grade']=grade.YDS
-print(routes)
+#print(routes)
 
 # Use parent_area to filter all areas down to just the ones we want
 # I have no idea what squeeze() does, but it allows me to use "contains()" to search the data
