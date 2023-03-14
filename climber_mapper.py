@@ -114,7 +114,7 @@ for index, row in result_routes.iterrows():
     feature['geometry']['coordinates'] = row.lnglat
 
     feature['properties']['marker-symbol'] = "point"
-    feature['properties']['description'] = row.route_name
+    feature['properties']['description'] = row.route_name + " " + row.us_grade
     feature['properties']['title'] = row.area
     feature['properties']['marker-color'] = "FF0000"
     # TODO: routes data has trad/boulder/sport info
